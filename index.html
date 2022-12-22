@@ -32,19 +32,34 @@
 			<nav class="">
 				<ul id="menu">
 					<li><a href="#intro">Introduction</a></li>
-					<li><a class="prett">Questionnement</a>
-						<ul class="menus">
-							<li><a href="#acteurs">Les acteurs</a></li>
-							<li><a href="#d">La régulation des armes</a></li>
-							<li><a href="#a">Le marché de l'armement</a></li>
-							<li><a href="#e">L'éthique derrière</a></li>
-							<li><a href="#g">Opinions personnelles</a></li>
-						</ul>
-					</li>
+					<li class="mult"><a id="questionnement" style="cursor: pointer;">Questionnement &dtrif;</a></li>
 					<li><a href="#about">Interview</a></li>
 					<li><a href="#conclusion">Conclusion</a></li>
 				</ul>
 			</nav>
+
+			<script>
+				q = document.getElementById("questionnement");
+				q.onclick = function() {
+					sub = document.getElementById("subMenu")
+					sub.style.display = sub.style.display === "none" ? "block" : "none";
+					console.log(sub.style.display)
+				}
+			</script>
+
+			<div id="subMenu" style="display: none">
+				<h3 class="content">Questionnement</h3>
+				<nav>
+					<ul id="menu">
+						<li><a href="#acteurs">Les acteurs</a></li>
+						<li><a href="#d">La régulation des armes</a></li>
+						<li><a href="#a">Le marché de l'armement</a></li>
+						<li><a href="#e">L'éthique derrière</a></li>
+						<li><a href="#g">Opinions personnelles</a></li>
+					</ul>
+				</nav>
+			</div>
+
 			<!-- <section class="page-section bg-light" id="team"> -->
 			<div class="content">
 				<div class="inner">
@@ -123,7 +138,8 @@
 
 			<!-- acteurs -->
 			<article id="acteurs" style="text-align: justify;">
-				<h2 class="major">Les acteurs</h2>
+				<div id="acteursArticle"/>
+				<!-- <h2 class="major">Les acteurs</h2>
 				<p class="item-intro text-muted">Qui sont les acteurs au coeur de cette controverse ?</p>
 				<img class="image main" src="images/armee.jpg" alt="Armée de terre" />
 				<p>Les acteurs dans le domaine de l’armement sont nombreux. On peut les classer en différentes
@@ -224,7 +240,7 @@
 				<ul class="actions">
 					<li><a href="#" class="button primary">Suivant</a></li>
 					<li><a href="#" class="button">Sources</a></li>
-				</ul>
+				</ul> -->
 			</article>
 
 			<!-- Work -->
