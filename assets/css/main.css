@@ -651,6 +651,19 @@ input, select, textarea {
 	border-radius: 50% !important;
   }
 
+  .opinionImage {
+	  display: flex;
+	  align-items: center;
+  }
+
+  .opinionImage img {
+		width: 8rem;
+		height: 8rem;
+		border: 0.5rem solid rgba(0, 0, 0, 0.1);
+		margin-left: auto;
+		margin-bottom: 2%;
+  }
+
   .mr-auto,
 .mx-auto {
   margin-right: auto !important;
