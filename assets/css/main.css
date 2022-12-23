@@ -642,8 +642,8 @@ input, select, textarea {
 	text-align: center;
   }
   .team-member img {
-	width: 12rem;
-	height: 12rem;
+	width: 11rem;
+	height: 11rem;
 	border: 0.5rem solid rgba(0, 0, 0, 0.1);
   }
 
