@@ -1443,6 +1443,7 @@ input, select, textarea {
 			#header nav ul li {
 				padding-left: 0;
 				border-left: solid 1px #ffffff;
+				background-color: rgba(0, 0, 0, 0.3)
 			}
 
 				#header nav ul li:first-child {
@@ -1452,14 +1453,12 @@ input, select, textarea {
 				#header nav ul li a {
 					display: block;
 					min-width: 7.5rem;
-					height: 2.75rem;
 					line-height: 2.75rem;
 					padding: 0 1.25rem 0 1.45rem;
 					text-transform: uppercase;
 					letter-spacing: 0.2rem;
 					font-size: 0.8rem;
 					border-bottom: 0;
-					background-color: rgba(0, 0, 0, 0.3)
 				}
 
 					#header nav ul li a:hover {
