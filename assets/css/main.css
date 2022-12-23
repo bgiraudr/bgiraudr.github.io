@@ -692,6 +692,23 @@ input, select, textarea {
 
 /* Image */
 
+  	.imageDescription {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.imageDescription p {
+		text-align: center;
+		color:#aaa;
+		margin-top: -1%;
+		font-size: 0.8em;
+	}
+
+	.imageDescription img {
+		width: 100%;
+	}
+
 	.image {
 		border-radius: 4px;
 		border: 0;
@@ -1595,6 +1612,10 @@ input, select, textarea {
 		position: relative;
 		max-width: 100%;
 		z-index: 3;
+	}
+
+	#main article a {
+		color:#da8d00;
 	}
 
 		#main article {
