@@ -637,9 +637,14 @@ input, select, textarea {
 
 /* Team members */
 
+.teams {
+	display: flex;
+}
+
 .team-member {
-	margin-bottom: 3rem;
+	margin:auto;
 	text-align: center;
+	max-width: min-content;
   }
   .team-member img {
 	width: 11rem;
@@ -801,6 +806,10 @@ input, select, textarea {
 
 			.image.main {
 				margin: 1.5rem 0;
+			}
+
+			.imageDescription {
+				width: 100% !important;
 			}
 
 		}
@@ -1412,9 +1421,8 @@ input, select, textarea {
 				-webkit-transition-delay: 0.25s;
 				-ms-transition-delay: 0.25s;
 				transition-delay: 0.25s;
-				padding: 3rem 2rem;
-				max-height: 40rem;
-				overflow: hidden;
+				padding: 2rem 2rem;
+				overflow: auto;
 			}
 
 				#header .content .inner > :last-child {
@@ -1554,6 +1562,10 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 480px) {
+
+			.teams {
+				display: block;
+			}
 
 			#header {
 				padding: 1.5rem 0;
