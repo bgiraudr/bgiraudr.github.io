@@ -808,6 +808,10 @@ input, select, textarea {
 				margin: 1.5rem 0;
 			}
 
+			.imageDescription {
+				width: 100% !important;
+			}
+
 		}
 
 /* List */
